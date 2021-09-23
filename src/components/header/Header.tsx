@@ -4,6 +4,7 @@ import { BackGround } from 'components/body/TodoBoard/TodoItem';
 import { Filter } from 'components/header';
 import { date, Importance } from 'types/index';
 import { useSideTab } from 'utils/index';
+import TodoLogo from 'assets/icon/todo.png';
 import styled from 'styled-components';
 
 interface HeaderProps {
@@ -34,12 +35,9 @@ function Header({
       <HeaderLayer>
         <HeaderA
           draggable={false}
-          href="https://6trillion-todolist.netlify.app/"
+          href="https://condescending-volhard-b18c1d.netlify.app"
         >
-          <HeaderImg
-            draggable={false}
-            src="https://i0.wp.com/www.moduparking.com/wp-content/uploads/2021/02/cropped-BI_모두의주차장RGB-04.png?fit=1063%2C265&ssl=1"
-          />
+          <HeaderImg draggable={false} src={TodoLogo} />
         </HeaderA>
       </HeaderLayer>
       <ButtonWrap onClick={onItemClick}>필터</ButtonWrap>
@@ -85,6 +83,7 @@ const HeaderA = styled.a`
 const HeaderImg = styled.img`
   padding: 1rem;
   max-width: 291px;
+  height: 90px;
   margin-left: 10%;
   user-select: none;
 `;
