@@ -1,7 +1,7 @@
 export const TODO_STATUS_TEXT = {
-  TODO: 'TO DO',
-  ON_PROGRESS: 'On Progress',
-  DONE: 'DONE',
+  TODO: '강동휘',
+  ON_PROGRESS: '안계정',
+  DONE: '김현종',
 };
 
 export const STATUS = {
