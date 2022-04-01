@@ -4,7 +4,7 @@ import { BackGround } from 'components/body/TodoBoard/TodoItem';
 import { Filter } from 'components/header';
 import { date, Importance } from 'types/index';
 import { useSideTab } from 'utils/index';
-import TodoLogo from 'assets/icon/todo.png';
+import TodoLogo from 'assets/icon/logo.png';
 import styled from 'styled-components';
 
 interface HeaderProps {
